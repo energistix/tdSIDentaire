@@ -16,7 +16,7 @@
         <h1>Votre dentiste de proximité</h1>
     </span>
     <span>
-        <img class="btn small" src="images/aide.png" alt="Bouton d'aide">
+        <img class="btn help" src="images/aide.png" alt="Bouton d'aide" width="41" height="48">
         Besoin d'aide ?
     </span>
 </nav>
@@ -26,20 +26,22 @@
     <form>
         <h3 class="title">Inscription</h3>
         <input class="bulle" type="email" name="login" id="login" placeholder="Entrez votre adresse e-mail">
-        <label>
-            <input class="bulle" type="radio" name="gender" value="female">
-            Féminin
-        </label>
-        <label>
-            <input class="bulle" type="radio" name="gender" value="male">
-            Masculin
-        </label>
+        <div class="box-gender">
+            <label>
+                <input class="bulle" type="radio" name="gender" value="female">
+                Féminin
+            </label>
+            <label>
+                <input class="bulle" type="radio" name="gender" value="male">
+                Masculin
+            </label>
+        </div>
         <input class="bulle" type="text" name="name" id="name" placeholder="Nom">
-        <input type="text" name="firstname" id="firstname" placeholder="Prénom">
-        <input type="date" name="birthday" id="birthday">
-        <input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone">
-        <input type="password" name="password" id="password" placeholder="Mot de passe">
-        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmez votre mot de passe">
+        <input class="bulle" type="text" name="firstname" id="firstname" placeholder="Prénom">
+        <input class="bulle" type="date" name="birthday" id="birthday">
+        <input class="bulle" type="tel" name="phone" id="phone" placeholder="Numéro de téléphone">
+        <input class="bulle" type="password" name="password" id="password" placeholder="Mot de passe">
+        <input class="bulle" type="password" name="confirm-password" id="confirm-password" placeholder="Confirmez votre mot de passe">
 
         <label>
             <input type="checkbox" name="cgu" id="cgu" value="valid">
