@@ -23,8 +23,6 @@ html, body {
     flex-direction: row;
     align-items: center;
     color: white;
-    font-weight: bolder;
-    font-size: 2em;
 }
 
 img {
@@ -33,6 +31,11 @@ img {
 
 img.small {
     height: 70%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: .8;
 }
 
 .navbar button {
@@ -77,7 +80,7 @@ img.calendrier {
     object-fit: contain;
 }
 
-.footer {
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
